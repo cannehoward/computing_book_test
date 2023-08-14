@@ -1,0 +1,49 @@
+# Outline {.unnumbered}
+
+Application of Computer Technology and Document Processing in Forestry Management emphasizes learning data analysis techniques using programming routines and prepare professional documents using efficient tools. This book aims to equip students with a solid foundation in computer literacy, document processing, and data handling, using popular software tools such as MS Word, MS Excel, R, RStudio, R Markdown, and QGIS. Through reading this book, students will be able to:
+
+-   Be proficient in document processing using powerful tools on MS Word
+    -   Prepare an academic report or paper or document using powerful tools
+    -   Efficiently design and format a long document: avoid manual formatting, use styles, references, layout, etc.
+-   Be proficient in data handling and summarizing using powerful tools on MS Excel
+    -   Perform basic calculations (using formulas and functions) and interpret the results
+    -   Create and interpret basic graphs
+    -   Generate and interpret pivot tables and pivot charts
+-   Perform data handling and analysis in R\RStudio\R Markdown statistical packages
+    -   Import/export data
+    -   Perform basic calculations
+    -   Create high-quality graphs
+-   Manage and analyze geodata in QGIS
+    -   Create projects and organize geodata
+    -   Perform basic functionality and geoprocessing functions
+
+By the end of this book, students will have a strong foundation in computer literacy and data handling that they can use in their academic and professional pursuits.
+
+### Version history {.unnumbered}
+
+Materials were prepared for this book at the Faculty of Forestry, University of British Columbia, {{< meta date >}}.
+
+### Contributor list
+
+| Contributors     | Affilations              |
+|------------------|--------------------------|
+| Suborna Ahmed    | Faculty of Forestry, UBC |
+| Christina Howard | Faculty of Forestry, UBC |
+
+### Citation {.unnumbered}
+
+::: callout-tip
+# How to cite
+
+Ahmed, S., & Howard, C. (2023). Application of Computer Technology and Document Processing in Forestry Management. Add DOI.
+:::
+
+# License
+
+![](/images/license.png){width="175"}
+
+The online version of this book is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You may share, adapt the content and may distribute your contributions under the same license (CC BY-NC-SA 4.0), but you have to give appropriate credit, and cannot use material for the commercial purposes.
+
+### Comments {.unnumbered}
+
+For any comments regarding this document, reach out to [Dr. Ahmed](https://forestry.ubc.ca/faculty-profile/suborna-ahmed/).

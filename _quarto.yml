@@ -1,0 +1,124 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Application of Computer Technology and Document Processing in Forestry Management"
+  author: "Dr. Suborna Ahmed, Forest Resources Management, UBC <br> Christina Howard, Forest Resources Management, UBC"
+  search: true
+  #favicon: cover_2.png
+  #image: cover_2.png
+  page-navigation: true
+  twitter-card: true
+  site-url: https://forestry.ubc.ca/faculty-profile/suborna-ahmed/
+  repo-url: https://github.com/subornaa?tab=repositories
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  sidebar:
+    style: docked
+    background: light
+  date: today
+  chapters:
+    - index.qmd
+    - part: word_1.qmd
+      chapters: 
+        - word_2.qmd
+        - word_3.qmd
+        - word_4.qmd
+    - part: excel_basics_1.qmd
+      chapters: 
+        - excel_basics_2.qmd
+        - excel_basics_3.qmd
+        - excel_basics_4.qmd
+        - excel_basics_5.qmd
+    - part: excel_more_1.qmd
+      chapters:
+        - excel_more_2.qmd
+        - excel_more_3.qmd
+        - excel_more_4.qmd
+    - part: excel_pivot_1.qmd
+      chapters: 
+        - excel_pivot_2.qmd
+        - excel_pivot_3.qmd
+    - part: r_basics_1.qmd
+      chapters:
+        - r_basics_2.qmd
+        - r_basics_3.qmd
+        - r_basics_4.qmd
+        - r_basics_5.qmd
+    - part: r_graph_1.qmd
+      chapters:
+        - r_graph_2.qmd
+        - r_graph_3.qmd
+        - r_graph_4.qmd
+        - r_graph_5.qmd
+    - part: gis_1.qmd
+      chapters: 
+        - gis_2.qmd
+        - gis_3.qmd
+        - gis_4.qmd
+        - gis_5.qmd
+    - part: processing_1.qmd
+      chapters:
+        - processing_2.qmd
+        - processing_3.qmd
+        - processing_4.qmd
+    - references.qmd
+    
+
+bibliography: references.bib
+
+highlight-style: pygments
+
+format:
+  html:
+    theme: cosmo
+    cover-image: cover_2.png
+    df-print: paged
+    code-fold: true
+    code-summary: "Show the code"
+    code-tools: true
+  pdf:
+    documentclass: scrreprt
+    fig-align: center
+    fig-width: 6
+    fig-height: 5
+    fig-pos: 'h'
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    pdf-engine: lualatex
+    keep-tex: true
+    linestretch: 1.5
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    lof: true
+    lot: true
+    number-sections: false
+    number-depth: 6
+    colorlinks: true
+    cite-method: biblatex
+    csl: apa7.csl
+    callout-appearance: simple
+    callout-icon: true
+    include-in-header: 
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[C]{Header text}
+        \fancyfoot[L]{Footer text}
+        \usepackage{tikz}
+        \usepackage{pgfplots}
+        \usepackage{mermaid}
+
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+
+editor: visual
+
+

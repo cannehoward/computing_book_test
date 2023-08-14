@@ -1,0 +1,10 @@
+# Chapter 1: Mastering the Art of Effective Technical Writing
+
+## Learning Objectives
+
+After studying this chapter you should be able to:
+
+-   Prepare an academic report or paper or document using all-powerful tools in the home, insert, layout, and references tabs
+-   Efficiently design and format a long document
+-   Avoid manual formatting by using styles
+-   Automate references, captions, list of tables and figures, table of content
