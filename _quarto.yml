@@ -22,48 +22,48 @@ book:
   chapters:
     - index.qmd
     - part: word_1.qmd
-      chapters: 
-        - word_2.qmd
-        - word_3.qmd
-        - word_4.qmd
-    - part: excel_basics_1.qmd
-      chapters: 
-        - excel_basics_2.qmd
-        - excel_basics_3.qmd
-        - excel_basics_4.qmd
-        - excel_basics_5.qmd
-    - part: excel_more_1.qmd
-      chapters:
-        - excel_more_2.qmd
-        - excel_more_3.qmd
-        - excel_more_4.qmd
-    - part: excel_pivot_1.qmd
-      chapters: 
-        - excel_pivot_2.qmd
-        - excel_pivot_3.qmd
-    - part: r_basics_1.qmd
-      chapters:
-        - r_basics_2.qmd
-        - r_basics_3.qmd
-        - r_basics_4.qmd
-        - r_basics_5.qmd
-    - part: r_graph_1.qmd
-      chapters:
-        - r_graph_2.qmd
-        - r_graph_3.qmd
-        - r_graph_4.qmd
-        - r_graph_5.qmd
-    - part: gis_1.qmd
-      chapters: 
-        - gis_2.qmd
-        - gis_3.qmd
-        - gis_4.qmd
-        - gis_5.qmd
-    - part: processing_1.qmd
-      chapters:
-        - processing_2.qmd
-        - processing_3.qmd
-        - processing_4.qmd
+    #   chapters: 
+    #     - word_2.qmd
+    #     - word_3.qmd
+    #     - word_4.qmd
+    # - part: excel_basics_1.qmd
+    #   chapters: 
+    #     - excel_basics_2.qmd
+    #     - excel_basics_3.qmd
+    #     - excel_basics_4.qmd
+    #     - excel_basics_5.qmd
+    # - part: excel_more_1.qmd
+    #   chapters:
+    #     - excel_more_2.qmd
+    #     - excel_more_3.qmd
+    #     - excel_more_4.qmd
+    # - part: excel_pivot_1.qmd
+    #   chapters: 
+    #     - excel_pivot_2.qmd
+    #     - excel_pivot_3.qmd
+    # - part: r_basics_1.qmd
+    #   chapters:
+    #     - r_basics_2.qmd
+    #     - r_basics_3.qmd
+    #     - r_basics_4.qmd
+    #     - r_basics_5.qmd
+    # - part: r_graph_1.qmd
+    #   chapters:
+    #     - r_graph_2.qmd
+    #     - r_graph_3.qmd
+    #     - r_graph_4.qmd
+    #     - r_graph_5.qmd
+    # - part: gis_1.qmd
+    #   chapters: 
+    #     - gis_2.qmd
+    #     - gis_3.qmd
+    #     - gis_4.qmd
+    #     - gis_5.qmd
+    # - part: processing_1.qmd
+    #   chapters:
+    #     - processing_2.qmd
+    #     - processing_3.qmd
+    #     - processing_4.qmd
     - references.qmd
     
 
