@@ -10,8 +10,8 @@ book:
   #image: cover_2.png
   page-navigation: true
   twitter-card: true
-  site-url: https://forestry.ubc.ca/faculty-profile/suborna-ahmed/
-  repo-url: https://github.com/subornaa?tab=repositories
+  #site-url: https://forestry.ubc.ca/faculty-profile/suborna-ahmed/
+  #repo-url: https://github.com/subornaa?tab=repositories
   repo-actions: [edit]
   downloads: [pdf, epub]
   sharing: [twitter, facebook]
